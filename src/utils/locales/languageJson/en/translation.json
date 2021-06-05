@@ -1,0 +1,76 @@
+{
+    "areYouFindDifficultyInDoingSomething": "Are you find difficulty in doing something...",
+    "manageYourTaskByYourOwn": "Manage Your Task By your Own",
+    "sign in to continue access": "Sign in to continue access",
+    "letsGo": "Lets Go!",
+    "Login to your account": "Login to your account",
+    
+    "Welcome": "Welcome!",
+    "username": "Username",
+    "enter your username": "Enter Your Username",
+    "password": "Password",
+    "enter your password": "Enter Your Password",
+    "forgot password": "Forgot password?",
+    "sign in": "Sign In",
+    "sign up": "Sign Up",
+    "Username must not be blank.": "Username must not be blank.",
+    "Username must be at least 4 characters long.": "Username must be at least 4 characters long.",
+    "Password can not be empty.": "Password can not be empty.",
+    "Password must be at least 3 characters long.": "Password must be at least 3 characters long.",
+    "Invalid Credential": "Invalid Credential",
+
+    "Register Now!": "Register Now!",
+    "Enter Username": "Enter Username",
+    "Enter Password": "Enter Password",
+    "Confirm Password": "Confirm Password",
+    "Confirm Entered Your Password": "Confirm Entered Your Password",
+    "By signing up you agree to our": "By signing up you agree to our",
+    "Terms of service": "Terms of service",
+    "Privacy policy": "Privacy policy",
+    "Both password should be match": "Both password should be match",
+    
+    
+    "user login successfully": "User login successfully",
+    "user logout successfully": "User logout successfully",
+    "something went wrong": "Something went wrong.",
+
+    "Advanced": "Advanced",
+    "Task Manager": "Task Manager",
+    "Dashboard": "Dashboard",
+    "Profile": "Profile",
+    "Support": "Support",
+    "Setting": "Setting",
+    "Rate Us": "Rate Us",
+    "More on App": "More on App",
+    "Dark Mode": "Dark Mode",
+    "SignOut": "SignOut",
+    "Tasks": "Tasks",
+    "Notifications": "Notifications",
+    "Calendar": "Calendar",
+
+
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "web development": "Web Development",
+    "app development": "App Development",
+    "technology migration": "Technology Migration",
+    "language": "Language",
+    "action": "Action",
+    "contact": "Contact",
+    "logOut": "Log Out",
+    "homePage": {
+        "home Page of app": "Home Page of Application.",
+        "Thanks": "Thank you",
+        "Why": "For Visiting our Website",
+        "visit again": "Please visit again our Website"
+    },
+    "aboutPage": {
+        "about page of app": "About Page of Application.",
+        "we soon inform about us": "We soon iform about us."
+    },
+    "contactPage": {
+        "contact page of app": "Contact page of App",
+        "contact us on mobile number & email": "Contact us on Mobile Number and Email."
+    }
+}

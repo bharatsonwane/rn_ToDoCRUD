@@ -1,0 +1,75 @@
+{
+    "areYouFindDifficultyInDoingSomething": "क्या आपको कुछ काम करने में कठिनाई होती है...",
+    "manageYourTaskByYourOwn": "अपने कार्य को अपने द्वारा प्रबंधित करें",
+    "sign in to continue access": "प्रवेश जारी रखने के लिए साइन इन करें",
+    "letsGo": "चलो चलते हैं!",
+    "Login to your account" :"अपने अकाउंट में लॉग इन करें",
+    
+    "Welcome": "स्वागतम्!",
+    "username": "उपयोगकर्ता नाम",
+    "enter your username": "अपना उपयोगकर्ता नाम दर्ज करें",
+    "password": "पारण शब्द",
+    "enter your password": "अपना पासवर्ड डालें",
+    "forgot password": "पासवर्ड भूल गए?",
+    "sign in": "साइन इन करें",
+    "sign up": "साइन अप करें",
+    "Username must not be blank.": "उपयोगकर्ता नाम खाली नहीं होना चाहिए।",
+    "Username must be at least 4 characters long.": "उपयोगकर्ता नाम कम से कम 4 वर्ण लंबा होना चाहिए।",
+    "Password can not be empty.": "पासवर्ड खाली नहीं हो सकता.",
+    "Password must be at least 3 characters long.": "पासवर्ड कम से कम 3 अक्षर लंबा होना चाहिए।",
+    "Invalid Credential": "अमान्य क्रेडेंशियल",
+
+    "Register Now!": "अभी पंजीकरण करें!",
+    "Enter Username": "उपयोगकर्ता नाम दर्ज करें",
+    "Enter Password": "पास वर्ड दर्ज करें",
+    "Confirm Password": "पासवर्ड की पुष्टि कीजिये",
+    "Confirm Entered Your Password": "अपना पासवर्ड दर्ज करने की पुष्टि करें",
+    "By signing up you agree to our": "साइन अप करके आप हमारी सहमति देते हैं",
+    "Terms of service": "सेवा की शर्तें",
+    "Privacy policy": "गोपनीयता नीति",
+    "Both password should be match": "दोनों का पासवर्ड मैच होना चाहिए",
+    
+    "user login successfully":"उपयोगकर्ता लॉगिन सफलतापूर्वक",
+    "user logout successfully":"उपयोगकर्ता लॉगआउट सफलतापूर्वक",
+    "something went wrong": "कुछ गलत हुआ",
+
+    "Advanced": "उन्नत",
+    "Task Manager": "कार्य प्रबंधक",
+    "Dashboard": "डैशबोर्ड",
+    "Profile": "पार्श्वचित्र",
+    "Support": "सहयोग",
+    "Setting": "स्थापना",
+    "Rate Us": "हमें रेटिंग दें",
+    "More on App": "ऐप पर अधिक",
+    "Dark Mode": "डार्क मोड",
+    "SignOut": "प्रस्थान करें",
+    "Tasks": "कार्य",
+    "Notifications": "सूचनाएं",
+    "Calendar": "पंचांग",
+
+
+    "home": "मुख्य पृष्ठ",
+    "about": "हमारे बारे में",
+    "service": "सेवायेंं",
+    "web development": "वेब विकास",
+    "app development": "एप्लिकेशन विकास",
+    "technology migration": "प्रौद्योगिकी प्रवास",
+    "language": "भाषा",
+    "action": "कार्य",
+    "contact": "संपर्क",
+    "logOut": "लॉग आउट",
+    "homePage": {
+        "home Page of app": "ऐप का होम पेज|",
+        "Thanks": "धन्यवाद",
+        "Why": "हमारी वेबसाइट पर आने के लिए",
+        "visit again": "कृपया फिर से हमारी वेबसाइट पर जाएँ"
+    },
+    "aboutPage": {
+        "about page of app": "एप्लिकेशन के पृष्ठ के बारे में|",
+        "we soon inform about us": "हम जल्द ही हमारे बारे में सूचित करते हैं|"
+    },
+    "contactPage": {
+        "contact page of app": "एप्लिकेशन के संपर्क पृष्ठ",
+        "contact us on mobile number & email": "मोबाइल नंबर और ईमेल पर हमसे संपर्क करें|"
+    }
+}

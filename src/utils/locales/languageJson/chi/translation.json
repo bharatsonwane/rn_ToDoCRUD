@@ -1,0 +1,37 @@
+{
+    "areYouFindDifficultyInDoingSomething": "Are you find difficulty in doing something...",
+    "manageYourTaskByYourOwn": "Manage Your Task By your Own",
+    "sign in to continue access": "登录以继续访问",
+    "letsGo": "Lets Go!",
+    "Login to your account" :"登录到您的帐户",
+    "enter login id":"输入登录ID",
+    "enter password" : "输入密码",
+    "login":"登录",
+    "user login successfully":"用户登录成功",
+    "user logout successfully":"用户注销成功",
+    "something went wrong": "出问题了",
+    "home": "家",
+    "about": "关于",
+    "service": "服务",
+    "web development": "网路 发展",
+    "app development": "应用程序 发展",
+    "technology migration": "技术迁移",
+    "language": "语",
+    "action": "行动",
+    "contact": "接触",
+    "logOut": "登出",
+    "homePage": {
+        "home Page of app": "应用首页",
+        "Thanks": "谢谢",
+        "Why": "用于访问我们的网站",
+        "visit again": "请再次访问我们的网站"
+    },
+    "aboutPage": {
+        "about page of app": "关于应用页面",
+        "we soon inform about us": "我们很快会通知我们"
+    },
+    "contactPage": {
+        "contact page of app": "应用程序的联系页面",
+        "contact us on mobile number & email": "通过手机号码和电子邮件联系我们"
+    }
+}
