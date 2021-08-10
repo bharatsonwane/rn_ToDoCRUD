@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { usePrevious } from "src/constants/customHooks/customHooks"
+import { usePrevious } from "src/helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
 import { userSignOutActions } from "src/Redux-actions/userActions"
 import { useTranslation } from 'react-i18next';
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         elevation: 2
     },
-    modal__buttonView__button__text:{
+    modal__buttonView__button__text: {
         color: "white",
         fontSize: 18,
         padding: 5,

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
-import {useStateCallback, usePrevious} from "src/constants/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "src/helper/customHooks/customHooks"
 import Vicon from "src/assets/icons/Vicon"
 import {
     View,
@@ -29,7 +29,7 @@ const SignInScreen = ({ navigation }) => {
 
     // ----------redux store useDispatch & useSelector --------------------
 
-    
+
 
     // // ----------hooks useState--------------------------------------------------
     const [userData, setUserData] = useStateCallback({

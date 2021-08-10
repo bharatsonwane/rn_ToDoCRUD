@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import * as _ from 'lodash';
-import { useStateCallback, usePrevious } from "../../../../constants/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "../../../../helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
 import { retrieveTaskActions, deleteTaskActions } from "../../../../Redux-actions/index"
 import { StyleSheet, Text, View, TouchableOpacity, ActivityIndicator, TextInput } from 'react-native'
@@ -153,7 +153,7 @@ const RetrieveTask = ({ navigation }) => {
                                         >
                                             <Text style={[styles.textSign, { color: 'white' }]}>
                                                 Detail
-                                        </Text>
+                                            </Text>
                                         </TouchableOpacity>
                                     </DataTable.Cell>
                                     <DataTable.Cell>
@@ -163,7 +163,7 @@ const RetrieveTask = ({ navigation }) => {
                                         >
                                             <Text style={[styles.textSign, { color: 'orange' }]}>
                                                 Update
-                                        </Text>
+                                            </Text>
                                         </TouchableOpacity>
                                     </DataTable.Cell>
                                     <DataTable.Cell>
@@ -173,7 +173,7 @@ const RetrieveTask = ({ navigation }) => {
                                         >
                                             <Text style={[styles.textSign, { color: 'white' }]}>
                                                 Delete
-                                        </Text>
+                                            </Text>
                                         </TouchableOpacity>
                                     </DataTable.Cell>
                                 </DataTable.Row>

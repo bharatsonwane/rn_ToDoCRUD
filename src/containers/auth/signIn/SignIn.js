@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
-import { useStateCallback, usePrevious } from "../../../constants/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "../../../helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
 import { userSignInActions, userAuthStatusActions } from "../../../Redux-actions/index"
 
@@ -205,7 +205,7 @@ export default function SignIn({ navigation }) {
                         <View>
                             <Text style={[styles.form__label__text, { color: "black", marginTop: 35 }]}>
                                 {t("password")}
-                        </Text>
+                            </Text>
                             <View style={styles.form__inputRow}>
                                 <Vicon iconSet="Feather" name="lock" size={20} color={"black"} />
                                 <TextInput
@@ -237,16 +237,16 @@ export default function SignIn({ navigation }) {
                             <Text onPress={() => navigation.navigate("ForgotPassword")} style={{ color: '#009387', marginTop: 15 }}>{t("forgot password")}</Text>
                         </TouchableOpacity>
                         {userErr.invalidCredentialsErr ?
-                                <Animatable.View animation="fadeInLeft" duration={500}>
-                                    <Text style={styles.form__errorMsg}> {userErr.invalidCredentialsErr} </Text>
-                                </Animatable.View>
-                                : null
-                            }
+                            <Animatable.View animation="fadeInLeft" duration={500}>
+                                <Text style={styles.form__errorMsg}> {userErr.invalidCredentialsErr} </Text>
+                            </Animatable.View>
+                            : null
+                        }
                         <View style={styles.form__button__view}>
                             <TouchableOpacity
                                 style={styles.form__touchableOpacity__button}
                                 onPress={() => { handleLogin(userData.username, userData.password) }} >
-                                <Text style={styles.form__touchableOpacity__button__text }>
+                                <Text style={styles.form__touchableOpacity__button__text}>
                                     {t("sign in")}
                                 </Text>
                             </TouchableOpacity>
