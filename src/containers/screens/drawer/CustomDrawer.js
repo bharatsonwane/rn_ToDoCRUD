@@ -4,8 +4,8 @@ import { StyleSheet, View, Switch, TouchableOpacity, Image } from 'react-native'
 import { DrawerContentScrollView, DrawerItemList, DrawerItem } from '@react-navigation/drawer'
 import { Text } from 'react-native-elements';
 import { DrawerActions } from '@react-navigation/native'
-import Vicon from "../../../assets/icons/Vicon"
-const customDrawerLogo = require("../../../assets/logo/splashLogoCircular.png")
+import Vicon from "src/assets/icons/Vicon"
+const customDrawerLogo = require("src/assets/logo/splashLogoCircular.png")
 const usFlag = require("src/assets/flag/united_states.svg")
 const indiaFlag = require("src/assets/flag/india.svg")
 const chinaFlag = require("src/assets/flag/china.svg")

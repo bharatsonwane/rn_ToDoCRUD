@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { usePrevious } from "../helper/customHooks/customHooks"
+import { usePrevious } from "src/helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
 import { NavigationContainer, useFocusEffect } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import PreAuthNavigation from "./PreAuthNavigation"
-import PostAuthDrawerNavigation from "./PostAuthDrawerNavigation"
-import { userAuthStatusActions } from "../Redux-actions/index"
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import PreAuthNavigation from "src/containers/PreAuthNavigation";
+import PostAuthDrawerNavigation from "src/containers/PostAuthDrawerNavigation";
+import { userAuthStatusActions } from "src/Redux-actions/index";
 
 const StackRoot = createStackNavigator();
 

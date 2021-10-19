@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { StyleSheet, Text, TextInput, View, StatusBar, Button, ScrollView, TouchableOpacity } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux'
-import { useStateCallback, usePrevious } from "../../../../helper/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "src/helper/customHooks/customHooks"
 import { useNavigation } from '@react-navigation/native';
-import { createTaskActions, updateTaskActions } from "../../../../Redux-actions/taskActions"
+import { createTaskActions, updateTaskActions } from "src/Redux-actions/taskActions"
 import * as Animatable from 'react-native-animatable';
-// import Vicon from "../../../../assets/icons/Vicon"
+// import Vicon from "src/assets/icons/Vicon"
 import Vicon from "src/assets/icons/Vicon"
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { Picker } from '@react-native-picker/picker';

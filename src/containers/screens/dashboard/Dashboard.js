@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, Pressable } from 'react-native'
-import Vicon from '../../../assets/icons/Vicon';
+import Vicon from 'src/assets/icons/Vicon';
 import { DrawerActions } from '@react-navigation/native'
 import DropDown from './DropDown';
 

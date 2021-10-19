@@ -1,13 +1,13 @@
 import React from 'react'
 import { createDrawerNavigator } from '@react-navigation/drawer';
-// import SideBar from "./screens/drawer/SideBar"
-import CustomDrawer from "./screens/drawer/CustomDrawer"
-import PostAuthTabNavigation from './PostAuthTabNavigation';
-import Profile from "./screens/profile/Profile"
-import Support from "./screens/supports/Support"
-import Setting from "./screens/settings/Setting"
-import RateUs from './screens/rateUs/RateUs';
-import MoreOnApp from './screens/moreOnApp/MoreOnApp';
+// import SideBar from "src/containers/screens/drawer/SideBar"
+import CustomDrawer from "src/containers/screens/drawer/CustomDrawer"
+import PostAuthTabNavigation from 'src/containers/PostAuthTabNavigation';
+import Profile from "src/containers/screens/profile/Profile"
+import Support from "src/containers/screens/supports/Support"
+import Setting from "src/containers/screens/settings/Setting"
+import RateUs from 'src/containers/screens/rateUs/RateUs';
+import MoreOnApp from 'src/containers/screens/moreOnApp/MoreOnApp';
 
 const DrawerPostAuth = createDrawerNavigator();
 

@@ -3,7 +3,7 @@ import {
     RETRIEVE_TASK, RETRIEVE_TASK_FAILURE, RETRIEVE_TASK_SUCCESS,
     UPDATE_TASK, UPDATE_TASK_FAILURE, UPDATE_TASK_SUCCESS,
     DELETE_TASK, DELETE_TASK_FAILURE, DELETE_TASK_SUCCESS,
-} from "../Redux-actions/Types"
+} from "src/Redux-actions/Types"
 
 // // Initial State
 const initialState = {

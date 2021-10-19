@@ -2,11 +2,11 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text } from 'react-native'
-import Vicon from "../assets/icons/Vicon"
-import Calendar from './screens/calendar/Calendar'
-import Dashboard from './screens/dashboard/Dashboard'
-import Notification from './screens/notification/Notification'
-import Tasks from './screens/tasks/Tasks'
+import Vicon from "src/assets/icons/Vicon"
+import Calendar from 'src/containers/screens/calendar/Calendar'
+import Dashboard from 'src/containers/screens/dashboard/Dashboard'
+import Notification from 'src/containers/screens/notification/Notification'
+import Tasks from 'src/containers/screens/tasks/Tasks'
 
 
 const TabPostAuth = createBottomTabNavigator()

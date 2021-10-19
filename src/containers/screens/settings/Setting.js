@@ -1,7 +1,7 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack';
 import { View, Text, Pressable } from 'react-native'
-import Vicon from "../../../assets/icons/Vicon"
+import Vicon from "src/assets/icons/Vicon"
 import { DrawerActions } from '@react-navigation/native'
 import NgrOkUrl from "./stacks/NgrOkUrl"
 import SettingHome from "./stacks/SettingHome"
@@ -12,7 +12,7 @@ const StackSetting = createStackNavigator();
 
 
 export default function Setting({ navigation }) {
-    
+
     let settingStackNavData = [
         {
             name: 'SettingHome',
@@ -53,7 +53,7 @@ export default function Setting({ navigation }) {
         },
     ]
 
-    
+
     return (
         <React.Fragment>
 
@@ -72,6 +72,6 @@ export default function Setting({ navigation }) {
                     />
                 ))}
             </StackSetting.Navigator>
-    </React.Fragment>
+        </React.Fragment>
     )
 }

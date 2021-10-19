@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import * as _ from 'lodash';
-import { useStateCallback, usePrevious } from "../../../../helper/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "src/helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
-import { retrieveTaskActions, deleteTaskActions } from "../../../../Redux-actions/index"
+import { retrieveTaskActions, deleteTaskActions } from "src/Redux-actions/index"
 import { StyleSheet, Text, View, TouchableOpacity, ActivityIndicator, TextInput } from 'react-native'
 import { DataTable } from 'react-native-paper';
 import LoadingIndicator from 'src/components/loadingIndicator/LoadingIndicator';

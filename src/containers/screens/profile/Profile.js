@@ -1,6 +1,6 @@
 import React from 'react'
-import {Pressable, View, Text } from 'react-native'
-import Vicon from "../../../assets/icons/Vicon"
+import { Pressable, View, Text } from 'react-native'
+import Vicon from "src/assets/icons/Vicon"
 import { DrawerActions } from '@react-navigation/native'
 
 export default function Profile({ navigation }) {

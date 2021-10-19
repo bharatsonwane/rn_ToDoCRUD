@@ -1,7 +1,7 @@
 import { takeEvery, all, call, put, select, delay } from "redux-saga/effects"
-import { USER_SIGNIN, USER_AUTH_STATUS, USER_SIGNOUT } from '../Redux-actions/Types'
-import { userSignInActions, userAuthStatusActions, userSignOutActions } from '../Redux-actions'
-import { checkCredential } from "../utils/server/CheckCredential"
+import { USER_SIGNIN, USER_AUTH_STATUS, USER_SIGNOUT } from 'src/Redux-actions/Types'
+import { userSignInActions, userAuthStatusActions, userSignOutActions } from 'src/Redux-actions'
+import { checkCredential } from "src/utils/server/CheckCredential"
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 

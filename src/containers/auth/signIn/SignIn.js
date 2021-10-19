@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
-import { useStateCallback, usePrevious } from "../../../helper/customHooks/customHooks"
+import { useStateCallback, usePrevious } from "src/helper/customHooks/customHooks"
 import { useSelector, useDispatch } from 'react-redux'
-import { userSignInActions, userAuthStatusActions } from "../../../Redux-actions/index"
+import { userSignInActions, userAuthStatusActions } from "src/Redux-actions/index"
 
 import {
     ScrollView,

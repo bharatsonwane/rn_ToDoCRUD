@@ -1,9 +1,9 @@
 import { takeEvery, all, call, put, select } from "redux-saga/effects";
 import axios from "axios";
-import { baseURLconfig } from "../helper/config/baseURLconfig"
-import { CREATE_TASK, RETRIEVE_TASK, UPDATE_TASK, DELETE_TASK } from '../Redux-actions/Types'
-import { createTaskActions, retrieveTaskActions, updateTaskActions, deleteTaskActions } from '../Redux-actions/index'
-import axiosConfig from "../helper/config/axiosConfig"
+import { baseURLconfig } from "src/helper/config/baseURLconfig"
+import { CREATE_TASK, RETRIEVE_TASK, UPDATE_TASK, DELETE_TASK } from 'src/Redux-actions/Types'
+import { createTaskActions, retrieveTaskActions, updateTaskActions, deleteTaskActions } from 'src/Redux-actions/index'
+import axiosConfig from "src/helper/config/axiosConfig"
 
 
 export const reducerModel = (state) => state.TaskReducer;

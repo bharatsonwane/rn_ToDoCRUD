@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
-import { changi18nextLanguage } from "../../../utils/locales/languageConstants"
+import { changi18nextLanguage } from "src/utils/locales/languageConstants"
 
 import { ScrollView, ImageBackground, Image, View, StatusBar, TouchableOpacity, Button } from "react-native";
 import { Text } from 'react-native-elements';
 import styles from "./splashStyles"
 import LanguageModal from 'src/components/languageModal/LanguageModal';
 
-const launchScreenBg = require("../../../assets/images/launchscreen-bg.png")
-const launchscreenLogo = require("../../../assets/logo/splashLogoCover.jpg")
+const launchScreenBg = require("src/assets/images/launchscreen-bg.png")
+const launchscreenLogo = require("src/assets/logo/splashLogoCover.jpg")
 
 export default function SplashScreen({ navigation }) {
 

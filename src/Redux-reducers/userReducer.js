@@ -2,7 +2,7 @@ import {
     USER_SIGNIN, USER_SIGNIN_SUCCESS, USER_SIGNIN_FAILURE,
     USER_AUTH_STATUS, USER_AUTH_STATUS_SUCCESS, USER_AUTH_STATUS_FAILURE,
     USER_SIGNOUT, USER_SIGNOUT_SUCCESS, USER_SIGNOUT_FAILURE,
-} from "../Redux-actions/Types"
+} from "src/Redux-actions/Types"
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 

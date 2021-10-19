@@ -1,10 +1,10 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack';
 import { View, Text } from 'react-native'
-import SplashScreen from './auth/splashScreen/SplashScreen';
-import SignIn from './auth/signIn/SignIn';
-import SignUp from './auth/signUp/SignUp';
-import ForgotPassword from './auth/forgotPassword/ForgotPassword'
+import SplashScreen from 'src/containers/auth/splashScreen/SplashScreen';
+import SignIn from "src/containers/auth/signIn/SignIn";
+import SignUp from 'src/containers/auth/signUp/SignUp';
+import ForgotPassword from 'src/containers/auth/forgotPassword/ForgotPassword'
 
 const StackPreAuth = createStackNavigator();
 
